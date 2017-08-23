@@ -1,0 +1,184 @@
+body
+		{background-image: url("whitewood.jpg");	
+		font-family: Sniglet;
+		margin:0;
+		padding:0;
+		height:100%;
+		}	
+		
+		input:focus, textarea:focus
+		{outline:0;}
+		
+		a
+		{color: black;
+		text-decoration: none;}
+		
+		a:visited 
+		{color:black;}	
+		
+		
+		img#logo
+		{height: 50px;
+		/* code to center vertically */
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		margin-left: 100px;
+		}	
+		
+		div#header
+		{ margin: 0 auto;
+		height: 60px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+		background: rgb(238,238,238); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+		left: 0;
+		right: 0;
+		width: 80%;
+		border-radius: 10px;
+		border: 5px solid #B0C4DE;
+		opacity: 0.9;
+		}	
+		
+		div#navmenu
+		{width: 320px;		
+		float: right;		
+		/* code to center vertically */
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);	
+		}
+	
+		div#navmenu input
+		{background-color: #F0F8FF;
+		width: 100px;		
+		border: 3px solid #B0C4DE;
+		font-size: 14px;		
+		float: left;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;	
+		border-radius: 10px;
+		font-family: Sniglet;		
+		}
+						
+		div#navmenu input:hover 
+		{background-color: #00BFFF;
+		color: black;
+		}
+			
+		div#main
+		{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+		background: rgb(238,238,238); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+		opacity: 0.9;
+		border: 5px solid #B0C4DE;
+		width: 80%;
+		margin: 0 auto; 
+		border-radius: 10px;
+		text-align:center;
+		}
+		
+		div#footer
+		{
+		bottom: 0px;
+		width:100%;
+		height:60px;   /* Height of the footer */
+		text-align: center;}
+			
+		
+		img#profilepic
+		{border: 3px solid #B0C4DE;
+		border-radius: 10px;
+		width: 200px;
+		height: 200px;
+		}
+	
+		input#container, textarea#container
+		{border: 3px solid #B0C4DE;
+		border-radius: 10px;
+		font-size: 14px;
+		font-family: Sniglet;
+		background-color: #F8F8FF;
+		color: black;
+		text-decoration: none;
+		padding-left: 3px;
+		margin: 0 auto;
+		text-align: left;	
+		}
+		
+		div#imagecontainer
+		{border: 3px solid #B0C4DE;
+		border-radius: 10px;
+		font-size: 12px;
+		font-family: Sniglet;
+		background-color: #F8F8FF;
+		color: black;
+		text-decoration: none;
+		padding-left: 3px;
+		margin: 0 auto;
+		width: 50%;		
+		padding-top: 10px;		
+		padding-bottom: 10px;	
+		}
+		
+		
+		input#edit
+		{background-color: #F0F8FF;		
+		border: 3px solid #B0C4DE;
+		font-size: 18px;		
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;	
+		border-radius: 10px;
+		font-family: Sniglet;		
+		}
+		
+		.inputfile
+		{	
+		font-size: 12px;		
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;	
+		border-radius: 10px;
+		font-family: Sniglet;
+			
+		}
+		
+		input#edit:hover 
+		{background-color: #00BFFF;
+		color: black;
+		}
+	
+		input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button 
+		{ 
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		margin: 0; 
+		}
+		
+		textarea 
+		{ resize: vertical; }
+		
+		div#container
+		{border: 3px solid #B0C4DE;
+		border-radius: 10px;
+		width: 70%;
+		font-family: Sniglet;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f5f6+0,e3eaed+37,c8d7dc+100;Grey+3D+%234 */
+		background: rgb(242,245,246); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(242,245,246,1) 0%, rgba(227,234,237,1) 37%, rgba(200,215,220,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(242,245,246,1) 0%,rgba(227,234,237,1) 37%,rgba(200,215,220,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+		color: black;
+		text-decoration: none;
+		margin: 0 auto;

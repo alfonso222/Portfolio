@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sniglet">
+	<link rel = "stylesheet" type = "text/css" href = "CreateAccountPage.css">
+	<script type="text/javascript" src="JobClickScripts.js"></script>
+	
+	
+	
+</head>
+<body>
+	
+	<br><br>
+	<center><a href="JobClick.html"> <img id="logo" src="JobClickLogo.png"></a></center>
+	<br><br>
+	
+	<div id="main">
+		<form id="login" name="createaccountform" method="post" action="createaccount.php">
+		
+			<h2>Create Account</h2>
+			<hr width="70%">
+			<p>Username<br>
+			<input type="text" name="username" size="20" maxLength="25"required>
+			</p>
+
+			<p>Password<br>
+			<input type="password" name="password" size="20" maxLength="25" required>
+			</p>
+			
+			<p>Full Name<br>
+			<input type="text" name="firstname" size="10" maxLength="25" placeholder="First Name" required>
+			<input type="text" name="lastname" size="10" maxLength="25" placeholder="Last Name" required>
+			</p>
+			
+			<p>Email Address<br>
+			<input type="email" name="email" size="30" maxLength="40" placeholder="name@domain.com" required>
+			</p>
+			
+			<p>Phone Number<br>
+			<input type="number" name="phonenum" size="20" maxLength="10" required>
+			</p>
+			
+			Account Type<br>
+			<div id="radiobuttons">
+			<input type="radio" value="Worker" name="account" required>Worker<br>
+			<input type="radio"  value="Recruiter" name="account" >Recruiter
+			</div>
+			<hr width="70%">
+			
+			<input type="button" onclick="submitCreateAccount()" value="Create Your Account" id="caccount">
+			<br>
+			<br>
+			
+			
+		</form>
+		
+	
+	</div>
+	
+	<br><br><br><br><br><br><br><br><br><br><br>	
+	<div id="footer">
+	<hr width="50%">
+	<p><font size="2">Job Click &#169; 2016</font></p>
+	</div>
+	
+	
+	
+</body>
+</html>

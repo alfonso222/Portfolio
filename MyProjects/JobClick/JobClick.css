@@ -1,0 +1,62 @@
+		
+		body
+		{text-align: center;
+		background-image: url("whitewood.jpg");
+		font-family: Sniglet;
+		font-size: 12px;
+		margin:0;
+		padding:0;
+		height:100%;}
+		
+		input:focus 
+		{outline:0;}
+		
+		a
+		{text-decoration: none; 
+		color: black;
+		}
+		
+		a:visited 
+		{color:black;}
+				
+		div#main
+		{border: 3px solid #B0C4DE;
+		width: 30%;
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+		background: rgb(238,238,238); /* Old browsers */
+		background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+		border-radius: 15px;	
+		opacity: 0.7;		
+		}
+		
+		input#uname, input#pass, input#login, a#caccount
+		{padding: 10px 24px;
+		opacity: 0.8;
+		border-radius: 10px;
+		border: 3px solid #B0C4DE;
+		font-family: Sniglet;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;
+		display: inline-block;
+		background-color: white;
+		}
+		
+		input#uname:hover, input#pass:hover, input#login:hover, a#caccount:hover
+		{ background-color: #00BFFF;
+		color: black;	
+		}
+	
+		div#footer
+		{
+		bottom:0;
+		width:100%;
+		height:60px;   /* Height of the footer */
+		text-align: center;
+		}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Sniglet">
+	<link rel = "stylesheet" type = "text/css" href = "JobClick.css">
+	<script type="text/javascript" src="JobClickScripts.js"></script>
+	
+	
+</head>
+<body>
+	
+	<br><br><br><br>
+	<center><img id="logo" src="JobClickLogo.png"></center>
+	<br><br>
+	
+	<div id="main">
+		<form id="login" method="post" name="loginform" action="login.php">
+			<p><label>Username<br>
+			<input type="text" name="username" size="20" maxLength="25" id="uname" required>
+			</label></p>
+
+			<p><label>Password<br>
+			<input type="password" name="password" size="20" maxLength="25" id="pass" required>
+			</label></p>
+
+			<p>
+			<input type="button" onclick="submitLogin()" value="Login" id="login">
+			<a id="caccount" href="CreateAccountPage.html">Create Account</a>
+			</p>
+		</form>
+		
+		
+	</div>
+	
+
+	<br><br><br><br><br><br><br><br><br><br><br>	
+	<div id="footer">
+	<hr width="50%">
+	<p><font size="2">Job Click &#169; 2016</font></p>
+	</div>
+	
+
+	
+	
+	
+</body>
+</html>

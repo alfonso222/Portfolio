@@ -1,0 +1,20 @@
+[27-Jan-2017 08:55:42 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfonso222/public_html/JobClick/login.php on line 34
+[27-Jan-2017 09:39:51 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfonso222/public_html/JobClick/login.php on line 34
+[27-Jan-2017 10:44:41 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfonso222/public_html/JobClick/JobClickHome.php on line 71
+[27-Jan-2017 10:44:49 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfonso222/public_html/JobClick/profile.php on line 49
+[27-Jan-2017 10:44:51 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfonso222/public_html/JobClick/JobClickHome.php on line 71
+[27-Jan-2017 12:14:53 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 12:15:09 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 12:16:48 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 15:56:00 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 16:48:48 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 16:48:52 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 16:49:08 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 16:50:42 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 16:52:06 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 16:52:36 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 18:46:54 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 18:46:56 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 19:07:53 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[27-Jan-2017 19:08:19 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/alfonso222/public_html/MyProjects/editprofile.php on line 62
+[31-Jan-2017 18:32:28 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alfonso222/public_html/MyProjects/upload.php on line 12

@@ -4,8 +4,7 @@
 	@import url("https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet");
 	@import url("https://fonts.googleapis.com/css?family=Lato" rel="stylesheet");
 
-
-	/*
+		/*
 	div{border: 1px solid blue;}
 	a{border: 1px solid red;}
 	i{border: 1px solid green;}
@@ -15,7 +14,8 @@
 	p{border: 1px solid purple;}
 	ul{border: 1px solid gray;}
 	li{border: 1px solid teal;}
-*/
+	button{border: 1px solid brown;}
+	*/
 
 
 	body
@@ -46,12 +46,12 @@
 	a {
     color: white;
     text-decoration: none;
-		z-index: -1;
+
 	}
 
 	a:hover
 	{
-	     color:#00A0C6;
+	     color: #f0f0f0; !important
 	     text-decoration:none;
 	     cursor:pointer;
 	}
@@ -195,10 +195,9 @@
 	#projectborder
 	{
 		/*height: 400px;*/
-		border: 1px solid #f5f5dc;
+
 		border-radius: 5px;
 		padding: 10px;
-		box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 		text-align: left;
 	}
 
@@ -226,16 +225,10 @@
 	#footertop
 	{
 		background-color: #1a1a1a;
-		height: 260px;
-
 	}
-
-
 
 	#footerbox
 	{
-		border-right: 1px solid #f2f2f2;
-		height: 220px;
 		text-align: left;
 	}
 
@@ -458,7 +451,7 @@
 
 #brand
 {
-	padding-top: 5px;
+
     height: 54px;
  	padding-bottom: 5px;
 }

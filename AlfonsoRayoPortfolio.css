@@ -15,7 +15,7 @@
 	ul{border: 1px solid gray;}
 	li{border: 1px solid teal;}
 	button{border: 1px solid brown;}
-	*/
+*/
 
 
 	body
@@ -155,7 +155,6 @@
 	animation-duration: 2s;
 	animation-delay: 1s;
 	border-bottom:1px solid #f2f2f2;
-
 	}
 
 
@@ -402,8 +401,7 @@
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition:  all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out ;
-	font-size: 20px;
-	text-shadow: 3px 2px black;
+	font-size: 15px;
 	color: white;
 }
 
@@ -449,11 +447,16 @@
 }
 
 
-#brand
+#brandimage
 {
-
     height: 54px;
  	padding-bottom: 5px;
+}
+
+#brand
+{
+		padding-right: 50px;
+		font-size: 20px;
 }
 
 #projectinfo1,#projectinfo2,#projectinfo3,#projectinfo4
